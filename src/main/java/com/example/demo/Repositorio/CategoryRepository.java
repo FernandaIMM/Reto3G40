@@ -33,4 +33,10 @@ public class CategoryRepository {
     public Category save(Category category){
         return extencionesCrud.save(category);
     }
+    
+    public void delete(Category category){
+        extencionesCrud.delete(category);
+    }
+    
+    
 }

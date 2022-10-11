@@ -34,5 +34,9 @@ public class ToolRepository {
     public Tool save(Tool tool){
         return extencionesCrud.save(tool);
     }
-         
+       
+    public void delete(Tool tool){
+        extencionesCrud.delete(tool);
+    }
+    
 }
